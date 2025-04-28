@@ -1,0 +1,202 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FF0B55;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Application Wrapper */
+.app-container {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Main Content Box */
+main {
+  max-width: 900px;
+  margin: 50px auto; /* Increased top margin to move content down */
+  background: rgba(255, 255, 255, 0.15); /* Slightly lighter background */
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 3rem 2rem; /* Increased padding for better spacing */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #F7CFD8; /* Changed from pure white to a light blue-tinted white */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #F7CFD8; /* Brighter, more legible color */
+  margin-bottom: 2.5rem; /* Increased spacing */
+  font-size: 2rem;
+}
+
+.success-message {
+  text-align: center;
+  color: #00ffae;
+  font-weight: 600;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Increased gap for better spacing */
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #F7CFD8; /* Changed from white to light blue */
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background: #f0f0f0;
+  color: #000;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #4a6fff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3757d0;
+}
+
+/* Layout Helpers */
+.file-upload p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+/* Logo and Title */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo-container img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(74, 111, 255, 0.7);
+}
+.logo {
+  width: 36px;
+  height: 36px;
+  background-color: #4a6fff; /* Logo background color */
+  border-radius: 6px; /* Slightly rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-icon {
+  /* For an icon inside the logo */
+  font-size: 20px;
+}
+
+.navbar h1 {
+  color: #F7CFD8;
+  cursor: pointer;
+  margin: 0; /* Remove margin from the h1 */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links span {
+  font-weight: 500;
+  color: #F7CFD8; /* Made link text more visible */
+}
+
+.nav-links button {
+  background: #fff;
+  color: #4a6fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+/* Role buttons */
+main .role-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+main .role-buttons button {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  color: #a8d8ff; /* Changed from #ccc to a more vibrant color */
+  font-size: 0.9rem;
+}
+
+/* Login link */
+.login-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #a8d8ff;
+}
+
+.login-link a {
+  color: #4a6fff;
+  text-decoration: underline;
+}

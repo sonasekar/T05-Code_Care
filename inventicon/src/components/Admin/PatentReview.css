@@ -1,0 +1,87 @@
+.patent-review {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .review-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+  
+  .patents-list {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  
+  .list-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+  }
+  
+  .patent-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .patent-item.selected {
+    background-color: rgba(74, 107, 255, 0.05);
+  }
+  
+  .review-btn {
+    background-color: #4a6bff;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 3px;
+    font-size: 0.875rem;
+  }
+  
+  .review-panel {
+    padding: 1rem;
+  }
+  
+  .verification-results {
+    margin: 1.5rem 0;
+  }
+  
+  .criteria {
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .criteria.passed {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .criteria.failed {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  @media (max-width: 768px) {
+    .review-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .list-header, .patent-item {
+      grid-template-columns: 1fr auto;
+    }
+    
+    .title, .type, .date {
+      grid-column: 1;
+    }
+  }

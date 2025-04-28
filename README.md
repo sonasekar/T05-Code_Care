@@ -1,4 +1,4 @@
-# T05--Code-Care
+# T05 Code Care
 #  Inventicon - Student Innovation Expo Platform
 
 > *Empowering Tomorrow’s Innovators, Today*
@@ -28,12 +28,12 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 
 ##  Tech Stack
 
-| Layer         | Technology   |
-|---------------|--------------|
-| 🎨 Design     | Figma         |
-| 🌐 Frontend   | React         |
-| 🔥 Database   | Firebase      |
-| 🖥️ Backend    | Python        |
+| Layer       | Technology    |
+|-------------|---------------|
+|  Design     | Figma         |
+|  Frontend   | React         |
+|  Database   | Firebase      |
+|  Backend    | Python        |
 
 ---
 
@@ -46,7 +46,7 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 
 ---
 
-## 📈 Usefulness and Scalability
+##  Usefulness and Scalability
 
 ### Usefulness:
 - Simplifies **talent discovery** for investors and companies.
@@ -60,7 +60,7 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 
 ---
 
-## ⚙️ Technical Challenges and Solutions
+##  Technical Challenges and Solutions
 
 | Challenge           | Proposed Solution |
 |----------------------|-------------------|

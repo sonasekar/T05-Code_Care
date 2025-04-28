@@ -103,10 +103,10 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 
 **Saranathan College of Engineering**
 ##  Contact Us:
-jayashri.v2004@gmail.com
-sonaskh001@gmail.com
-rutheeshmomdad@gmail.com
-kavinanimation0405@gmail.com
+- jayashri.v2004@gmail.com
+- sonaskh001@gmail.com
+- rutheeshmomdad@gmail.com
+- kavinanimation0405@gmail.com
 
 ---
 

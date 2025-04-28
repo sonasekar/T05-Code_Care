@@ -1,3 +1,19 @@
+# T05 Code Care
+#  Inventicon - Student Innovation Expo Platform
+
+> *Empowering Tomorrow’s Innovators, Today*
+
+---
+
+##  Problem Statement
+
+Student innovations often remain unnoticed due to a lack of exposure to investors and companies, creating a gap between talent and opportunity.
+
+---
+
+##  Proposed Solution
+
+**Inventicon** bridges this gap by providing a Student Innovation Expo Platform powered by **NLP-based abstract evaluation**.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

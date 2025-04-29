@@ -39,6 +39,8 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 
 ##  Flow Diagram
 
+![FLOW - INVENTIICON_page-0001](https://github.com/user-attachments/assets/36af061b-f5a3-41c7-9560-9d1a3c032e92)
+
 1. Abstract submission by students.
 2. NLP-powered evaluation to shortlist entries.
 3. Live demo presentations to investors and mentors.
@@ -59,6 +61,12 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 - Supports innovation across fields like **tech, business, and healthcare**.
 
 ---
+# Input:
+
+
+# Output:
+
+
 
 ##  Technical Challenges and Solutions
 

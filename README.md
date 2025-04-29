@@ -61,10 +61,13 @@ Student innovations often remain unnoticed due to a lack of exposure to investor
 - Supports innovation across fields like **tech, business, and healthcare**.
 
 ---
-# Input:
+## Input:
+![Screenshot 2025-04-29 100315](https://github.com/user-attachments/assets/ab033bde-2c87-4ad5-a74a-b3fb5bc80afa)
 
 
-# Output:
+
+## Output:
+![image](https://github.com/user-attachments/assets/a1a07cd3-682e-4cbe-b0f5-cd5da772fdcb)
 
 
 
